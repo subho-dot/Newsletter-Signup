@@ -57,8 +57,3 @@ app.listen(3000, function(){
 });
 
 
-// API key
-// 898daf618a501036310784fa877c61cb-us21
-
-// Audiance ID
-// 01b5bf854e
