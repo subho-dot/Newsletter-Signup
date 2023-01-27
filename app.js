@@ -29,10 +29,10 @@ app.post("/",function(req,res){
     };
 
     const jsonData = JSON.stringify(data);
-    const url ="https://us21.api.mailchimp.com/3.0/lists/01b5bf854e";
+    const url ="mailchimp url";
     const options = {
         method: "post",
-        auth: "subho:898daf618a501036310784fa877c61cb-us2"
+        auth: "subho:API key"
     }
 
     const request = https.request(url, options, function(response){
